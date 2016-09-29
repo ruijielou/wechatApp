@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/map/map"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#609010",
+    "navigationBarTitleText": "aboutMe",
+    "navigationBarTextStyle":"white"
+  },
+   "tabBar": {
+    "color": "#000",
+    "selectedColor":"#ccc",
+    "backgroundColor": "#609010",
+    "borderStyle":"white",
+    "list":[
+      {
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"images/star.png",
+      "selectedIconPath":"images/star-actived.png"
+      },
+      {
+      "pagePath":"pages/map/map",
+      "text":"社区",
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home-actived.png"
+      },
+      {
+      "pagePath":"pages/demo/demo",
+      "text":"我的",
+      "iconPath":"images/note.png",
+      "selectedIconPath":"images/note-actived.png"
+      }
+    ]
+  },
+  "debug":"true"
+}
